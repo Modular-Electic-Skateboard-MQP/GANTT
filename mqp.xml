@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="MESB" company="" webLink="http://" view-date="2018-08-26" view-index="0" gantt-divider-location="450" resource-divider-location="300" version="2.8.9" locale="en_US">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="303" order="0"/>
+        <field id="tpd5" name="End date" width="78" order="1"/>
+        <field id="tpd4" name="Begin date" width="65" order="2"/>
+        <option id="color.recent"><![CDATA[#cccccc #e1e1e1]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2018" month="10" date="15" type="HOLIDAY"><![CDATA[Holiday on 10/15/18 12:00 AM]]></date>
+        <date year="2018" month="10" date="16" type="HOLIDAY"><![CDATA[Holiday on 10/16/18 12:00 AM]]></date>
+        <date year="2018" month="10" date="17" type="HOLIDAY"><![CDATA[Holiday on 10/17/18 12:00 AM]]></date>
+        <date year="2018" month="10" date="18" type="HOLIDAY"><![CDATA[Holiday on 10/18/18 12:00 AM]]></date>
+        <date year="2018" month="10" date="19" type="HOLIDAY"><![CDATA[Holiday on 10/19/18 12:00 AM]]></date>
+        <date year="2018" month="10" date="20" type="HOLIDAY"><![CDATA[Holiday on 10/20/18 12:00 AM]]></date>
+        <date year="2018" month="10" date="21" type="HOLIDAY"><![CDATA[Holiday on 10/21/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="17" type="HOLIDAY"><![CDATA[Holiday on 12/17/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="18" type="HOLIDAY"><![CDATA[Holiday on 12/18/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="19" type="HOLIDAY"><![CDATA[Holiday on 12/19/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="20" type="HOLIDAY"><![CDATA[Holiday on 12/20/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="21" type="HOLIDAY"><![CDATA[Holiday on 12/21/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="22" type="HOLIDAY"><![CDATA[Holiday on 12/22/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="23" type="HOLIDAY"><![CDATA[Holiday on 12/23/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="24" type="HOLIDAY"><![CDATA[Holiday on 12/24/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="25" type="HOLIDAY"><![CDATA[Holiday on 12/25/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="26" type="HOLIDAY"><![CDATA[Holiday on 12/26/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="27" type="HOLIDAY"><![CDATA[Holiday on 12/27/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="28" type="HOLIDAY"><![CDATA[Holiday on 12/28/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="29" type="HOLIDAY"><![CDATA[Holiday on 12/29/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="30" type="HOLIDAY"><![CDATA[Holiday on 12/30/18 12:00 AM]]></date>
+        <date year="2018" month="12" date="31" type="HOLIDAY"><![CDATA[Holiday on 12/31/18 12:00 AM]]></date>
+        <date year="2019" month="1" date="1" type="HOLIDAY"><![CDATA[Holiday on 1/1/19 12:00 AM]]></date>
+        <date year="2019" month="1" date="2" type="HOLIDAY"><![CDATA[Holiday on 1/2/19 12:00 AM]]></date>
+        <date year="2019" month="1" date="3" type="HOLIDAY"><![CDATA[Holiday on 1/3/19 12:00 AM]]></date>
+        <date year="2019" month="1" date="4" type="HOLIDAY"><![CDATA[Holiday on 1/4/19 12:00 AM]]></date>
+        <date year="2019" month="1" date="5" type="HOLIDAY"><![CDATA[Holiday on 1/5/19 12:00 AM]]></date>
+        <date year="2019" month="1" date="6" type="HOLIDAY"><![CDATA[Holiday on 1/6/19 12:00 AM]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="64" name="testing" color="#8cb6ce" meeting="false" start="2018-08-27" duration="54" complete="64" thirdDate="2018-08-26" thirdDate-constraint="0" expand="false">
+            <task id="0" name="create safety requirements" color="#8cb6ce" meeting="false" start="2018-08-27" duration="21" complete="100" thirdDate="2018-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="research government safety" color="#8cb6ce" meeting="false" start="2018-08-27" duration="7" complete="100" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="design test protocols" color="#8cb6ce" meeting="false" start="2018-08-27" duration="7" complete="100" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" name="testing and design adjustments" color="#8cb6ce" meeting="false" start="2018-10-01" duration="19" complete="0" thirdDate="2018-10-03" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="44" name="deck design and fab" meeting="false" start="2018-09-03" duration="28" complete="62" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+            <task id="7" name="possible board designs in solidworks" color="#8cb6ce" meeting="false" start="2018-09-03" duration="14" complete="100" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true">
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="modular system designed in solidworks" color="#8cb6ce" meeting="false" start="2018-09-03" duration="14" complete="100" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" name="finalize modular system components" meeting="false" start="2018-09-17" duration="7" complete="0" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" name="fabricate board" color="#8cb6ce" meeting="false" start="2018-09-17" duration="7" complete="0" thirdDate="2018-09-10" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="modular system fabricated" meeting="false" start="2018-09-24" duration="7" complete="0" expand="true"/>
+            <task id="19" name="stress analysis" meeting="false" start="2018-09-10" duration="7" complete="100" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="30" name="estimate electronics weight" meeting="false" start="2018-09-17" duration="7" complete="0" expand="true"/>
+        <task id="18" name="choose major electrical system components" meeting="false" start="2018-09-03" duration="14" complete="74" expand="true">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" name="choose and order decks, trucks, wheels" color="#8cb6ce" meeting="false" start="2018-09-03" duration="7" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="43" name="drive design and fab" color="#000000" meeting="false" start="2018-09-24" duration="24" complete="0" thirdDate="2018-09-25" thirdDate-constraint="0" expand="true">
+            <task id="56" name="drive system specs" color="#8cb6ce" meeting="false" start="2018-09-24" duration="7" complete="0" thirdDate="2018-09-25" thirdDate-constraint="0" expand="true">
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+                <depend id="60" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="47" name="motor trade study" color="#8cb6ce" meeting="false" start="2018-10-01" duration="7" complete="0" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" name="batteries chosen" color="#8cb6ce" meeting="false" start="2018-10-01" duration="7" complete="0" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+                <depend id="136" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="136" name="electrical system design" meeting="false" start="2018-10-08" duration="7" complete="0" expand="true"/>
+            <task id="52" name="gear train design" color="#8cb6ce" meeting="false" start="2018-10-01" duration="14" complete="0" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" name="finalize drive design" color="#8cb6ce" meeting="true" start="2018-10-22" duration="0" complete="0" thirdDate="2018-11-15" thirdDate-constraint="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="63" name="assemble drive system" color="#8cb6ce" meeting="false" start="2018-10-22" duration="3" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="104" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="66" name="Control system" meeting="false" start="2018-09-17" duration="28" complete="0" expand="true">
+            <task id="67" name="design electronics" meeting="false" start="2018-09-17" duration="7" complete="0" expand="true">
+                <depend id="89" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="68" name="program MCU" color="#8cb6ce" meeting="false" start="2018-09-17" duration="21" complete="0" thirdDate="2018-08-26" thirdDate-constraint="0" expand="true">
+                <depend id="89" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="89" name="verify correct and real time operation on breadboard" meeting="false" start="2018-10-08" duration="7" complete="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="104" name="testing full driveable system" color="#8cb6ce" meeting="false" start="2018-10-25" duration="11" complete="0" thirdDate="2018-08-19" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous>
+        <previous-tasks name="sow">
+            <previous-task id="0" start="2018-08-27" duration="7" meeting="false" super="false"/>
+            <previous-task id="5" start="2018-08-27" duration="7" meeting="false" super="false"/>
+            <previous-task id="7" start="2018-08-27" duration="7" meeting="false" super="false"/>
+            <previous-task id="10" start="2018-08-27" duration="7" meeting="false" super="false"/>
+            <previous-task id="13" start="2018-09-03" duration="14" meeting="false" super="false"/>
+            <previous-task id="29" start="2018-09-03" duration="6" meeting="false" super="false"/>
+            <previous-task id="31" start="2018-09-09" duration="8" meeting="false" super="false"/>
+            <previous-task id="30" start="2018-09-03" duration="6" meeting="false" super="false"/>
+            <previous-task id="19" start="2018-09-10" duration="7" meeting="false" super="false"/>
+            <previous-task id="18" start="2018-09-03" duration="14" meeting="false" super="false"/>
+            <previous-task id="21" start="2018-09-03" duration="3" meeting="false" super="false"/>
+            <previous-task id="32" start="2018-09-17" duration="17" meeting="false" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+</project>
